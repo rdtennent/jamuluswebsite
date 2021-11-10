@@ -463,6 +463,8 @@ Works well. This device provides the **lowest latency**.
 
 **Note:** Virtually no jitter and good latency (20 milliseconds) under Linux. No headphone amp, so you'll need one. Used with a mini console [Rolls MX122](https://rolls.com/product/MX22s). Tested on several distributions, kernel versions 4.19, 5.4 and 5.8. (measured interface latency with jack_delay, 48000 Hz, 64 samples/buffer, 2 periods, asynchronous mode and cable from output to input, with DSP mode set to low latency in alsamixer: `4.9 ms`. Note this is **only the interface latency** not the latency in Jamulus)
 
+Although this device has a built-in microphone preamp, it wasn't sufficient for standard magnetic microphones and I had to purchase a ROLLS Mini-Mic preamp which works great.  
+
 ***
 
 **[Soundblaster Live!](https://en.wikipedia.org/wiki/Sound_Blaster_Live!)**, PCI internal sound card
